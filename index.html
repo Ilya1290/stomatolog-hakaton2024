@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стоматология DENTAL</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="logo">DENTAL</a>
+      <ul class="nav-links">
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#team">Наша команда</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Главный блок -->
+  <section class="hero">
+    <img src="images/clinick.JPG" alt="Стоматология" class="hero-image">
+    <h1>Добро пожаловать в стоматологию "DENTAL"</h1>
+    <p>Профессиональный подход и качественные услуги для вашей здоровой улыбки!</p>
+      <p>_______________________________________________________________________</p>
+    <a href="#contact" class="hero-button">Записаться на приём</a>
+  </section>
+
+  <!-- Услуги -->
+  <section id="services" class="services">
+    <h2>Наши услуги</h2>
+    <div class="service-cards">
+      <div class="card">
+        <img src="images/smile.JPG" alt="Отбеливание зубов">
+        <h3>Отбеливание зубов</h3>
+        <p>Эффективное отбеливание, которое подарит вашей улыбке сияние и блеск.</p>
+      </div>
+      <div class="card">
+        <img src="images/inplant.JPG" alt="Имплантация">
+        <h3>Имплантация зубов</h3>
+        <p>Профессиональная установка имплантов для восстановления утраченных зубов.</p>
+      </div>
+      <div class="card">
+        <img src="images/ort.JPG" alt="Ортодонтия">
+        <h3>Ортодонтия</h3>
+        <p>Коррекция прикуса и установка брекетов для ровной улыбки.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Наша команда -->
+  <section id="team" class="team">
+    <h2>Наша команда</h2>
+    <p>Профессионалы с многолетним опытом, которым можно доверить свою улыбку.</p>
+    <img src="images/team.JPG" alt="Наша команда">
+  </section>
+
+  <!-- Отзывы -->
+  <section id="reviews" class="reviews">
+    <h2>Отзывы наших клиентов</h2>
+    <div class="review">
+      <p>"Очень довольна обслуживанием и результатом! Врач помог выбрать оптимальное лечение."</p>
+      <p class="review-author">— Анна Петрова</p>
+    </div>
+    <div class="review">
+      <p>"Долгое время боялся стоматологов, но здесь мне помогли преодолеть страх."</p>
+      <p class="review-author">— Дмитрий Иванов</p>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="contact">
+    <h2>Запишитесь на приём</h2>
+    <form class="contact-form">
+      <label for="name">Ваше имя</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Телефон</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="service">Выберите услугу</label>
+      <select id="service" name="service">
+        <option value="Отбеливание">Отбеливание зубов</option>
+        <option value="Имплантация">Имплантация зубов</option>
+        <option value="Ортодонтия">Ортодонтия</option>
+      </select>
+
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+
+</body>
+</html>
